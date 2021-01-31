@@ -29,3 +29,5 @@ map <C-n> :LspDocumentDiagnostics<CR>
 
 :PlugClean
 ```
+
+同じ関数や変数へのカーソル移動は　gd から n 連打
