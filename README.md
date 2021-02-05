@@ -32,6 +32,8 @@ inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<S-TAB>"
 ```
 :PlugInstall
 
+:LspInstallServer
+
 :PlugClean
 ```
 
