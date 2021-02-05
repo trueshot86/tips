@@ -22,6 +22,7 @@ call plug#end()
 
 map <C-n> :LspDocumentDiagnostics<CR>
 map <C-l> :LspRename<CR>
+map <S-f> :LspDocumentFormatSync<CR>
 
 inoremap <expr><CR>  pumvisible() ? "<C-y>" : "<CR>"
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
