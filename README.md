@@ -45,7 +45,7 @@ let g:lsp_diagnostics_echo_cursor = 1
 
 テンプレートになるファイルは、テンプレートディレクトリ/言語名/ファイル名のような配置をします。ファイル名には命名規則があります。[種類]-[テンプレート名].[拡張子]のようにします。種類はbase・file・snipの3種類で、baseは何も書いていない時に呼び出され、fileはbuffer名とテンプレート名が一致し、まだ何も書いていないときに呼び出されます。すでに何かを書いているとsnipが呼ばれます。
 
-root@Yuris-PC:~# vi .vim/template/python/snip-ore.python
+root@Yuris-PC:~# vi .vim/template/python/snip-ore.py
 
 テンプレートファイルでは、変数などが使えます。
 {{_name_}}だとファイル名。{{_cursor_}}でテンプレートを出した後のカーソルの位置。少し凝ったもので、{{_input_:var}}とすると、テンプレートを呼び出すときに、varの部分を何にするのか聞かれ、それが入ります。詳細は:help sonictemplate-vim-writetemplateに書かれています。
