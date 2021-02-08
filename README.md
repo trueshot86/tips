@@ -49,3 +49,5 @@ root@Yuris-PC:~# vi .vim/template/python/snip-ore.py
 
 テンプレートファイルでは、変数などが使えます。
 {{_name_}}だとファイル名。{{_cursor_}}でテンプレートを出した後のカーソルの位置。少し凝ったもので、{{_input_:var}}とすると、テンプレートを呼び出すときに、varの部分を何にするのか聞かれ、それが入ります。詳細は:help sonictemplate-vim-writetemplateに書かれています。
+
+インデントがずれるときは :set paste を打ってから貼り付け。
