@@ -52,5 +52,5 @@ root@Yuris-PC:~# vi .vim/template/python/snip-ore.py
 
 インデントがずれるときは :set paste を打ってから貼り付け。
 
-linux cli でchrome起動時に socks指定で sshからvpnつかたような感覚
+linux cli でchrome起動時に socks指定で sshからvpnつかったような感覚  
 root@Yuris-PC:~# google-chrome --proxy-server="socks5://127.0.0.1:10000" --no-sandbox
