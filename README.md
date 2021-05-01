@@ -51,3 +51,6 @@ root@Yuris-PC:~# vi .vim/template/python/snip-ore.py
 {{_name_}}だとファイル名。{{_cursor_}}でテンプレートを出した後のカーソルの位置。少し凝ったもので、{{_input_:var}}とすると、テンプレートを呼び出すときに、varの部分を何にするのか聞かれ、それが入ります。詳細は:help sonictemplate-vim-writetemplateに書かれています。
 
 インデントがずれるときは :set paste を打ってから貼り付け。
+
+linux cli でchrome起動時に socks指定で sshからvpnつかたような感覚
+root@Yuris-PC:~# google-chrome --proxy-server="socks5://127.0.0.1:10000" --no-sandbox
